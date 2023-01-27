@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación del DOM básica - curso básico de JavaScript</title>
+</head>
+<body>
+    <h1 class="titulo">Manipulación del DOM</h1>
+<!--     El Document Object Model (DOM) es una interfaz de programación de 
+    aplicaciones (API) para documentos HTML y XML. El DOM representa 
+    un documento como un árbol de objetos, lo que permite a los 
+    programadores manipular el contenido, estructura y estilo de una 
+    página web de manera dinámica. -->
+
+    <!--Los formularios interpretan el último botón commo un submit, es decir como una información que se debe enviar, si se quiere evitar esto tendrémos que especificarle al botón que se comporte como tal con " type="button" " justo al lado de la etiqueta de ID-->
+    <form id="form" action="" > 
+        <input id="calculo1" type="text" placeholder="Escribe algo aquí">
+        <input id="calculo2" type="text" placeholder="Escribe algo aquí">
+        <button id="btnCalcular">Concatenar</button>
+
+        <p id="result"></p>
+    </form>
+
+    <script src="./main.js"></script>
+
+</body>
+</html>
